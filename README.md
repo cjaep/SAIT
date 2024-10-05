@@ -13,8 +13,8 @@ pip install -r requirements.txt
 ```
 
 ### 2. Generation
-For PLM generation, set MODEL="plm"\\
-For Instruct-tuned model generation, set MODEL="inst"\\
+For PLM generation, set MODEL="plm"<br/>
+For Instruct-tuned model generation, set MODEL="inst"<br/>
 For Alignment-tuned model generation, set MODEL={PATH_TO_MODEL}
 ```sh
 bash scripts/generation.sh
