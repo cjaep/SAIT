@@ -14,7 +14,9 @@ pip install -r requirements.txt
 
 ### 2. Generation
 MODEL="plm" -> PLM generation
+
 MODEL="inst" -> Instruct-tuned model generation
+
 MODEL={TRAINED_DPO_MODEL} -> Alignment-tuned model generation
 ```sh
 bash scripts/generation.sh
